@@ -21,5 +21,4 @@ public class ScoreController {
     public MovieDTO saveScore(@RequestBody ScoreDTO scoreDTO) {
         return service.saveScore(scoreDTO);
     }
-    
 }
